@@ -1,0 +1,62 @@
+* {
+    
+    margin: 0;
+    padding: 0
+
+}
+
+
+img{
+    border: 0;
+
+  width:1111px;
+  height:1085px
+
+
+}
+
+.container{
+     display:flex;
+     position: relative;
+     flex-direction: row;
+    border: 0;
+
+
+}
+
+.set{
+   
+   position:relative;
+   justify-content: flex-end;
+   
+   border-radius: 1px solid black;
+   top:240px;
+   border: 0;
+
+
+
+
+}
+
+.imagen2{
+    width: 75px;
+    border: 0;
+    height:62px
+
+
+
+}
+
+.emo1{
+     display:flex;
+     color:rgb(145, 145, 146)
+   
+
+}
+
+.backgroundImage{
+     background-color:azure;
+     border: 0;
+    
+
+}
