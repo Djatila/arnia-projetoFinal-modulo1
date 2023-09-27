@@ -1,4 +1,4 @@
-* {
+body {
     
     margin: 0;
     padding: 0
@@ -17,23 +17,19 @@ img{
 
 .container{
      display:flex;
-     position: relative;
-     flex-direction: row;
-    border: 0;
+     
+     
+    
 
 
 }
 
 .set{
+   display: flex;
+   flex-direction: column;
    
-   position:relative;
-   justify-content: flex-end;
+   margin: 160px;
    
-   border-radius: 1px solid black;
-   top:240px;
-   border: 0;
-
-
 
 
 }
@@ -54,9 +50,58 @@ img{
 
 }
 
+.emailSenha{
+
+    display: flex;
+    position:relative;
+    align-items: space-around;
+}
+
 .backgroundImage{
-     background-color:azure;
-     border: 0;
+     background-color:rgb(247, 247, 247);
+     
+
+}
+h1{
+    line-height: 140%;
+   color: #212121;
+  
+}
+
+#input1{
+    width: 400px;
+    height: 56px;
+    border-radius:10px;
+
+    
+}
+#senha{
+    width: 400px;
+    height: 56px;
+    border-radius: 10px;
+    
+}
+
+.generalCheck{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+   
+    
+}
+
+.check{
+   
+    position: relative;
+    
     
 
 }
+
+fieldset{
+    width: 400px;
+    height: 56px;
+    border-radius: 10px;
+
+}
+
