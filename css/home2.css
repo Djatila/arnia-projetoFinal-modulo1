@@ -1,0 +1,290 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    height: 200px;
+
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 271px;
+    height: 650px;
+    background-color: #F9E423;
+    margin-bottom: 300px;
+    padding-inline: 20px;
+
+}
+
+.as{
+   color: #AA6F34
+
+
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 42px;
+
+
+
+}
+
+span {
+    
+    display: flex;
+    align-items: start;
+    gap: 25px;
+    font-size: 18px;
+
+
+
+}
+
+.span1 {
+    
+
+    flex-direction: column;
+    gap: 35px;
+    padding: 45px 0px 10px;
+
+
+}
+
+
+
+img {
+    width: 25px;
+    height: 25px;
+
+
+}
+
+.rightIcon{
+        position: relative;
+        left:100px
+
+
+}
+.init{
+       width: 100px;
+
+
+}
+
+a:hover {
+    width: 300px;
+    height: 70px;
+    background-color: #F48221;
+  }
+
+.perfilOut{
+       display: flex;
+       position: relative;
+       flex-direction: column;
+       top:320px;
+       gap:30px
+
+
+
+}
+
+.topoImg {
+    display: flex;
+    position: relative;
+    right: 894px;
+    width: 300px;
+    height: 60px;
+
+
+
+}
+
+.topo2 {
+
+    display: flex;
+    position: relative;
+    width: 1478px;
+    height: 80px;
+
+    border-right-width: 0px;
+    border-bottom-width: 6px;
+
+    background-color: #FFFFFF;
+    padding-inline: 20px;
+    font-size: 30px;
+    justify-content: flex-end;
+
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+
+
+
+}
+
+.topo3 {
+    position: relative;
+    width: 20%;
+    border: 3px solid #AA6F34;
+    right: 20px;
+    top: 20px;
+}
+
+.topo4 {
+    position: relative;
+    width: 20%;
+    border: 3px solid rgba(210, 119, 46, 1);
+    left: 289px;
+    top: 15px
+}
+
+.topo5 {
+    position: relative;
+    width: 20%;
+    border: 3px solid #F48221;
+    left: 595px;
+    top: 10px;
+}
+
+.topo6 {
+    position: relative;
+    width: 20%;
+    border: 3px solid #FAA61A;
+    left: 903px;
+    top: 5px;
+}
+
+.topo7 {
+    position: relative;
+    width: 20%;
+    border: 3px solid #F9E423;
+    left: 1209px;
+
+}
+
+.radius {
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    width: 56px;
+    height: 56px;
+    border-radius: 26px;
+    border: none;
+    background-color: rgba(249, 228, 35, 1);
+    justify-content: center;
+}
+
+.images {
+
+    width: 35px;
+    height: 35px;
+    align-self: center;
+
+}
+
+.ane {
+    opacity: 0.7;
+
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.meio {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    font-family: nunito;
+    width: 1207px;
+    height: 648px;
+    font-size: 30px;
+    color: rgba(170, 111, 52, 1);
+    align-items: center;
+    bottom: 950px;
+    left: 310px;
+    background: var(--Cinza-de-fundo, #F5F4F9);
+
+}
+
+.meioInter {
+    font-size: 42px;
+    color: rgba(117, 117, 117, 1)
+}
+
+.comments {
+
+    display: flex;
+
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+width: 50%;
+    font-family: nunito;
+    font-size: 36px;
+    left: 298px;
+    text-align: center;
+    bottom: 65px
+}
+
+.faleConosco {
+
+    width: 248px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 665px;
+    font-family: nunito;
+    font-size: 36px;
+    left: 1010px;
+
+    text-align: center;
+
+
+}
+
+.fale2 {
+    width: 163px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 630px;
+    font-weight: 600px;
+    font-family: nunito;
+    font-size: 20px;
+    left: 1177px;
+
+    text-align: center;
+
+    background: #FFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+
+}
+
+.circle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left:20px
+
+}
+
+.com {
+    position: absolute;
+    width: 47px;
+    height: 44px;
+    left: 60px
+}
+
