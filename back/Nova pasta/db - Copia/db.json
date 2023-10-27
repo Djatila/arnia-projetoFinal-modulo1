@@ -1,0 +1,43 @@
+{
+  "cadAluno": [
+    {
+      "nome": "azevedo3",
+      "turma": "TURMA 21",
+      "id": 17
+    },
+    {
+      "nome": "Closhoth",
+      "turma": "Turma C",
+      "id": 18
+    },
+    {
+      "nome": "breno",
+      "turma": "turma k",
+      "id": 19
+    },
+    {
+      "nome": "Atila4",
+      "turma": "TURMA C",
+      "id": 20
+    },
+    {
+      "nome": "Closhoth",
+      "turma": "tumra a",
+      "id": 21
+    }
+  ],
+  "cadProf": [
+    {
+      "nome": "Azevedo4",
+      "perfil": "Professor",
+      "disciplina": "ATILA",
+      "id": 19
+    },
+    {
+      "nome": "Vanessa Torres",
+      "perfil": "Professor",
+      "disciplina": "Matematica",
+      "id": 20
+    }
+  ]
+}

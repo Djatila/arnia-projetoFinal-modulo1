@@ -53,6 +53,7 @@ div#container{
     font-size:18px;
     letter-spacing:0.2px;
     
+    
 }
 .mail{
     display: flex;
@@ -65,6 +66,7 @@ div#container{
 
 a{
   text-decoration: none;
+  color: white;
 
 }
 .bg{

@@ -1,0 +1,33 @@
+{
+  "cadAluno": [
+    {
+      "nome": "Closhoth",
+      "turma": "Turma C",
+      "id": 18
+    },
+    {
+      "nome": "Atila",
+      "turma": "TURMA C",
+      "id": 20
+    },
+    {
+      "nome": "Michel",
+      "turma": "TURMA C",
+      "id": 21
+    }
+  ],
+  "cadProf": [
+    {
+      "nome": "Vanessa Torres",
+      "perfil": "Professor",
+      "disciplina": "Matematica",
+      "id": 20
+    },
+    {
+      "nome": "Marcio",
+      "perfil": "Coordenador",
+      "disciplina": "Programação",
+      "id": 21
+    }
+  ]
+}

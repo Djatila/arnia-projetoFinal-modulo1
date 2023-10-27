@@ -1,0 +1,868 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 271px;
+    height: 650px;
+    background-color: #F9E423;
+    margin-bottom: 300px;
+    padding-inline: 20px;
+}
+
+.as{
+   color: #AA6F34
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+span {
+    display: flex;
+    align-items: start;
+    gap: 25px;
+    font-size: 18px;
+}
+
+.span1 {
+    flex-direction: column;
+    gap: 35px;
+    padding: 45px 0px 10px;
+}
+
+
+
+img {
+    width: 33px;
+}
+
+.rightIcon{
+        position: relative;
+        left:100px
+}
+.init{
+       width: 100px;
+}
+
+a:hover {
+    width: 300px;
+    height: 70px;
+    background-color: #F48221;
+  }
+
+
+
+.topoImg {
+    display: flex;
+    position: relative;
+    right: 894px;
+    width: 300px;
+    height: 60px;
+}
+
+.topo2 {
+    display: flex;
+    position: relative;
+    width: 1478px;
+    height: 80px;
+    background-color: #FFFFFF;
+    font-size: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Nunito Sans', sans-serif;
+    top:10px;
+}
+
+.topo3 {
+    position: relative;
+    width: 20%;
+    border: 3px solid #AA6F34;
+    right: 20px;
+    top: 20px;
+}
+
+.topo4 {
+    position: relative;
+    width: 20%;
+    border: 3px solid rgba(210, 119, 46, 1);
+    left: 289px;
+    top: 15px
+}
+
+.topo5 {
+    position: relative;
+    width: 20%;
+    border: 3px solid #F48221;
+    left: 595px;
+    top: 10px;
+}
+
+.topo6 {
+    position: relative;
+    width: 20%;
+    border: 3px solid #FAA61A;
+    left: 903px;
+    top: 5px;
+}
+
+.topo7 {
+    position: relative;
+    width: 20%;
+    border: 3px solid #F9E423;
+    left: 1209px;
+}
+
+.radius {
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    width: 56px;
+    height: 56px;
+    border-radius: 26px;
+    border: none;
+    background-color: rgba(249, 228, 35, 1);
+    justify-content: center;
+}
+
+.images {
+
+    width: 35px;
+    height: 35px;
+    align-self: center;
+}
+.inputSearch{
+    position: relative;
+    bottom: 240px;
+    right:458px
+}
+
+.ane {
+    opacity: 0.7;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.d-menu{
+    position: relative;
+    top:10px;
+    padding: 0px 3px;
+ }
+ 
+ 
+ 
+ .ulSubMenu{
+     display: none;
+     flex-direction: column;
+     position: relative;
+     right:72px;
+ }
+ 
+ .aSub{
+     position: relative;
+     width: 100%;
+ }
+ 
+ .dropTopo-menu li:hover > .ulSubMenu{
+          display:block;      
+ }
+
+ .ulSubMenu a{
+    
+  
+     width: 250%;
+     font-size: 18px;
+     border-left: 8px solid #F48221;
+     background:#FAA61A;
+     color:white;
+ }
+ 
+ .dropTopo-menu{
+     display: flex;
+     position:relative;
+     flex-direction: column;
+     right:98px;
+     font-family: 'Nunito Sans', sans-serif;
+     font-size: 18px;
+     letter-spacing: 0.2px;
+ }
+ 
+ .dropTopo-menu li{    
+     display: flex;
+    position: relative;
+    flex-direction: column;
+    list-style: none;
+     width: 250px;
+     padding-left: 35px;
+     color:#AA6F34;
+ }
+ 
+ .imgMenu{
+      width: 33px;
+ }
+ .imgMenu2{
+     width: 45px;
+     position: relative;
+     left:50px
+ }
+ 
+ .imgMenu2:hover{
+     transform: scale(1.0) rotate(90deg);
+  }
+ 
+ .dropTopo-menu a{
+     display: flex;
+     align-content: center;
+     align-items: center;
+     width: 110%;
+     height: 40px;
+     padding: 10px;
+     transition: all .2s linear;
+     padding-left:25px;
+     gap:18px;
+     color: #AA6F34;  
+  }
+ 
+ .dropTopo-menu li ul li{
+     padding-left: 32px;
+ }
+ 
+ .dropTopo-menu li:hover > a{
+     border-left: 8px solid #F48221;
+     background-color: #FAA61A;
+     color:white;
+  }
+  .ulSubMenu li:hover > a{
+     background-color:#F48221;
+     color:white;
+  }
+ 
+  .ulSubMenu .aSub {
+     color:white;
+    position: relative;  
+    padding-left: 70px ;
+  }
+ 
+ .user {
+     position: relative;
+     left:20px;
+     width: 100%;
+ }
+ 
+ .emocionometer {
+     width: 100%;
+     position: relative;
+     left:23px;
+     top:142px
+ }
+ 
+ .menuDown{
+     display: flex;
+     position:relative;
+     flex-direction: column;
+     top:190px;
+     height:10px ;
+     left:2px;
+     font-family: 'Nunito';
+     font-size: 18px;
+     letter-spacing: 0.2px;
+ }
+
+.meio {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 1207px;
+    height: 648px;
+    font-size: 30px;
+    color: rgba(170, 111, 52, 1);
+    align-items: center;
+    font-weight: 700;
+    bottom: 950px;
+    left: 310px;
+    background:  #F5F4F9;
+}
+
+.meioInter {
+    font-size: 22px;
+    color: #212121;
+    position: relative;
+    bottom: 248px;
+    right:463px;   
+}
+
+.comments {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    font-family: nunito;
+    font-size: 36px;
+    left: 298px;
+    text-align: center;
+    bottom: 65px
+}
+
+.faleConosco {
+    width: 248px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 665px;
+    font-family: nunito;
+    font-size: 36px;
+    left: 1010px;
+    text-align: center;
+}
+
+
+.fale2 {
+    width: 1147px;
+    height: 58px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 315px;
+    font-weight: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    left: 344px;
+    text-align: center;
+}
+.topoDados{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left:17px;
+}
+
+.topoDados2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left:27px;
+    top:27px;
+    z-index: 1;
+}
+
+.topoDados3{
+    width: 1147px;
+    height: 46px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 252px;
+    font-weight: 600px;
+    font-family: nunito;
+    font-size: 20px;
+    left: 344px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+}
+
+.topoDados4{
+    width: 1147px;
+    height: 46px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 305px;
+    font-weight: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    left: 344px;
+    text-align: center;
+    background-color: #FCFCFC;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+}
+.topoDados5{
+    width: 1147px;
+    height: 46px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 357px;
+    font-weight: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    left: 344px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+}
+
+.topoDados6{
+    width: 1147px;
+    height: 46px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 409px;
+    font-weight: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    left: 344px;
+    text-align: center;
+    background: #FCFCFC;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+}
+
+.topoDados7{
+    width: 1147px;
+    height: 46px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 462px;
+    font-weight: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    left: 344px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+}
+
+.topoDados8{
+    width: 1147px;
+    height: 46px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 515px;
+    font-weight: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    left: 344px;
+    text-align: center;
+    background: #FCFCFC;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+}
+
+.topoDados9{
+    width: 1147px;
+    height: 46px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 567px;
+    font-weight: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    left: 344px;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+}
+
+.topoDados10{
+    width: 1147px;
+    height: 46px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    top: 620px;
+    font-weight: 300px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    left: 344px;
+    text-align: center;
+    background: #FCFCFC;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+}
+.boton:hover {
+     background: #00C247;
+}
+
+.topoDadosInter2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    left:27px;
+    top:111px;
+    z-index: 1;
+}
+.topoDadosInter3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left:25px;
+    top:107px;
+    z-index: 1;
+}
+
+.dataUser{
+      font-size: 16px;
+      position: relative;
+      right: 66px;
+      bottom: 100px
+}
+
+.dataUserTop{
+    font-size: 16px;
+    position: relative;
+    right: 66px;
+    bottom: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}
+
+.dataUser2{
+    font-size: 16px;
+    position: relative;
+    right: 66px;
+    bottom: 100px
+}
+
+.dataUser2mat{
+    font-size: 16px;
+    position: relative;
+    right: 77px;
+    bottom: 100px
+}
+
+.dataUser3mat{
+    font-size: 16px;
+    position: relative;
+    right: 100px;
+    bottom: 100px
+}
+
+.dataUser4mat{
+    font-size: 16px;
+    position: relative;
+    right: 96px;
+    bottom: 100px
+}
+
+.dataUser9mat{
+    font-size: 16px;
+    position: relative;
+    right: 84px;
+    bottom: 100px
+}
+.dataUser8mat{
+    font-size: 16px;
+    position: relative;
+    right: 80px;
+    bottom: 100px
+}
+
+.dataUser7mat{
+    font-size: 16px;
+    position: relative;
+    right: 72px;
+    bottom: 100px
+}
+.dataUser6mat{
+    font-size: 16px;
+    position: relative;
+    right: 80px;
+    bottom: 100px
+}
+
+.dataUser2coord{
+    font-size: 16px;
+    position: relative;
+    right: 74px;
+    bottom: 100px
+}
+
+.dataUser3coord{
+    font-size: 16px;
+    position: relative;
+    right: 75px;
+    bottom: 100px
+}
+
+.dataUser4coord{
+    font-size: 16px;
+    position: relative;
+    right: 68px;
+    bottom: 100px
+}
+
+.dataUser9coord{
+    font-size: 16px;
+    position: relative;
+    right: 53px;
+    bottom: 100px
+}
+
+.dataUser7coord{
+    font-size: 16px;
+    position: relative;
+    right: 41px;
+    bottom: 100px
+}
+
+.dataUser8coord{
+    font-size: 16px;
+    position: relative;
+    right: 59px;
+    bottom: 100px
+}
+
+.dataUser5coord{
+    font-size: 16px;
+    position: relative;
+    right: 50px;
+    bottom: 100px
+}
+
+.name{
+    display: flex;
+    font-size: 16px;
+    position: relative;
+    left: 28px;
+    top: 65px;
+    gap:20px
+}
+.name2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    bottom: 100px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.discipline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.arrowTeacher {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    left:306px;
+    bottom:29px
+}
+
+.botao{
+    position: relative;
+    bottom: 373px;
+    left: 439px;
+    height: 40px;
+    width: 222px;
+    background-color: #00C247;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.imgOut{
+    position: relative;
+    top:5px;
+    left:13px;
+}
+
+.imgOut4{
+    position: relative;
+    top:5px;
+    left:13px;
+    top: 13px;
+}
+
+.key{
+    width: 44px;
+    height: 29px;
+    position: relative;
+    left:177px
+}
+
+.key2{
+    width: 34px;
+    height: 29px;
+    position: relative;
+    left:161px
+}
+.key1{
+    width: 34px;
+    height: 29px;
+    position: relative;
+    left:192px
+}
+.key6{
+    width: 44px;
+    height: 29px;
+    position: relative;
+    left:177px
+}
+
+.key7{
+    width: 44px;
+    height: 29px;
+    position: relative;
+    right:251px
+}
+
+.action2{
+    width: 34px;
+    height: 29px;
+    position: relative;
+    left:196px
+}
+.action4{
+    width: 34px;
+    height: 29px;
+    position: relative;
+    left:198px
+}
+
+.action5{
+    width: 34px;
+    height: 29px;
+    position: relative;
+    left:200px
+}
+.action6{
+    width: 34px;
+    height: 29px;
+    position: relative;
+    left:204px
+}
+
+.action7{
+    width: 34px;
+    height: 29px;
+    position: relative;
+    left:208px
+}
+
+.action3{
+    width: 34px;
+    height: 29px;
+    position: relative;
+    left:208px
+}
+
+.key3{
+    width: 44px;
+    height: 29px;
+    position: relative;
+    right:260px;
+    bottom: 4px;
+}
+
+.key4{
+    width: 44px;
+    height: 29px;
+    position: relative;
+    right:255px;
+    bottom: 2px;
+}
+
+.key5{
+    width: 44px;
+    height: 29px;
+    position: relative;
+    right:256px;
+    bottom: 2px;
+}
+
+.key8{
+    width: 44px;
+    height: 29px;
+    position: relative;
+    right:252px;
+    bottom: 2px;
+}
+
+.pActive{
+      position: relative;
+      top: 8px;
+}
+
+
+
+
+.radiusData{
+        border-radius: 8px;
+        border: 1px solid #E0E0E0;
+        height: 36px;
+        width: 300px;
+        position: relative;
+        left:38px
+}
+
+
+.circle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left:20px
+}
+
+.circleTopLeft {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left:20px;
+    top:10px
+}
+
+.circleTopLeft2 {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    right: 12px;
+    top:2px
+}
+
+
+.com {
+    position: absolute;
+    width: 47px;
+    height: 44px;
+    left: 60px
+}
+/* 
+                    
+
+div{
+    border: 1px solid;
+} 
+                 ^
+Meu Melhor amigo |   herança do prof Arthur ;) */

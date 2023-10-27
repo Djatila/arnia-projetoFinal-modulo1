@@ -22,7 +22,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Nunito:wght@700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/home2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/newuserstudent.css">
+
+    <script src="js/newuserstudent.js" defer></script>
+
+    <script src="js/cadastroAluno.js" defer></script>
+
 </head>
 
 <body>
@@ -50,8 +58,8 @@
           
             <nav class="d-menu">
                 <ul  class="dropTopo-menu">
-                 <li><a href="#"><img src="images/home1.svg"  class="imgMenu"/>Inicio</a></li>
-             <li><a href="#"><img src="images/body.svg" class="imgMenu"/>Usuário<img src="images/right.svg" class="imgMenu2"/></a>
+                 <li><a href="index-home.html"><img src="images/home1.svg"  class="imgMenu"/>Inicio</a></li>
+             <li><a href="#"><img src="images/body.svg" class="imgMenu"/>Usuário<img src="/images/right.svg" class="imgMenu2"/></a>
                      <ul class="ulSubMenu">
                          <li ><a href="index-teacher.html" class="aSub">Professor</a></li>
                          <li><a href="index-student.html" class="aSub">Alunos</a></li>
@@ -78,17 +86,44 @@
      </div>
 </div>
 
+
+
+
     
 
    
-    <div class="meio">Olá! seja bem vindo ao seu <div class="meioInter">EMOCIONÔMETRO DE GRUPO</div>
-    </div>
-    <div class="fale2"> Fale Conosco </div>
-    <div class="faleConosco">
-        <div class="comments"><img src="images/circulo amarelo.svg"
-                class="circle"> <img src="images/comments.svg" class="com"> </div>
+    <div class="meio"> <div class="meioInter"><img src="images/Ellipse 112.svg"
+        class="circleTopLeft"><img src="images/left-small.svg"
+        class="circleTopLeft2"> Novo Usuário > Aluno</div>
     </div>
 
+    
+    <div class="containerFale2">
+        
+    <div class="fale2"><div class="dataUser"> Dados do Usuário </div>
+    <form id="formulario">
+    <div class="name">
+        
+        <div class="name2"> 
+            
+        <label for="nome">Nome</label>             
+        <input type="text"  name="nameN1" class="radiusData" id="nome"></div>
+
+        <div class="name2">
+            <label for="turma">Turma</label>
+            <input type="text" name="nameT2" class="radiusData" id="turma"></div>
+       
+<div class="imgOut">
+    <p class="pActive">Ativo</p>
+    <img src="images/key.png" class="key" onclick="trocaImg()" id="mudaImg">
+</div>
+            
+            <button type="submit" class="botao">Salvar</button>
+
+    </div>
+</form>
+</div>
+</div>
 </body>
 
 </html>

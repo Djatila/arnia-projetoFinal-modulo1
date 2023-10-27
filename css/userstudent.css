@@ -83,8 +83,6 @@ a:hover {
     background-color: #F48221;
   }
 
-
-
 .topoImg {
     display: flex;
     position: relative;
@@ -381,12 +379,13 @@ a {
     position: relative;
     flex-direction: column;
     justify-content: center;
-    font-family: nunito;
+    font-family: 'Nunito Sans', sans-serif;
     width: 1207px;
     height: 648px;
     font-size: 30px;
     color: rgba(170, 111, 52, 1);
     align-items: center;
+    font-weight: 700;
     bottom: 950px;
     left: 310px;
     background: var(--Cinza-de-fundo, #F5F4F9);
@@ -394,8 +393,12 @@ a {
 }
 
 .meioInter {
-    font-size: 42px;
-    color: rgba(117, 117, 117, 1)
+    font-size: 22px;
+    color: #212121;
+    position: relative;
+    bottom: 290px;
+    right:442px;
+    
 }
 
 .comments {
@@ -432,17 +435,23 @@ width: 50%;
 
 }
 
+.containerFale2{
+
+    
+}
+
 .fale2 {
-    width: 163px;
+    width: 1147px;
+    height: 280px;
     position: absolute;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    top: 630px;
+    top: 190px;
     font-weight: 600px;
     font-family: nunito;
     font-size: 20px;
-    left: 1177px;
+    left: 344px;
 
     text-align: center;
 
@@ -451,6 +460,102 @@ width: 50%;
     box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
 
 }
+.dataUser{
+      font-size: 16px;
+      position: relative;
+      right: 482px;
+      top: 26px
+
+
+
+}
+
+.name{
+    display: flex;
+    
+    font-size: 16px;
+    position: relative;
+    left: 28px;
+    top: 65px;
+    gap:20px
+
+
+}
+.name2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+}
+
+.name3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+position: relative;
+left:275px;
+bottom: 61px;
+
+}
+
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.discipline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.botao{
+    position: relative;
+    bottom: 100px;
+    left: 0px;
+    height: 40px;
+    width: 222px;
+    background-color: #00C247;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.imgOut{
+    position: relative;
+    bottom:146px;
+    left:448px;
+    
+
+}
+.pActive{
+      position: relative;
+      top: 8px;
+
+}
+
+.key{
+    width: 44px;
+    height: 29px;
+    
+    
+
+}
+
+
+.radiusData{
+        border-radius: 8px;
+        border: 1px solid #E0E0E0;
+        
+        height: 36px;
+        width: 220px;
+
+}
+
 
 .circle {
     position: relative;
@@ -459,6 +564,24 @@ width: 50%;
     left:20px
 
 }
+
+.circleTopLeft {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left:20px;
+    top:10px;
+  
+}
+
+.circleTopLeft2 {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    right: 12px;
+    top:2px
+}
+
 
 .com {
     position: absolute;

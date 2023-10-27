@@ -294,6 +294,24 @@ a {
  
  
  }
+
+ .imgMenu3{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left:83px
+
+
+}
+
+.imgMenu4{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left:100px
+
+
+}
  
  .imgMenu2:hover{
      transform: scale(1.0) rotate(90deg);
@@ -381,12 +399,13 @@ a {
     position: relative;
     flex-direction: column;
     justify-content: center;
-    font-family: nunito;
+    font-family: 'Nunito Sans', sans-serif;
     width: 1207px;
     height: 648px;
     font-size: 30px;
     color: rgba(170, 111, 52, 1);
     align-items: center;
+    font-weight: 700;
     bottom: 950px;
     left: 310px;
     background: var(--Cinza-de-fundo, #F5F4F9);
@@ -394,8 +413,12 @@ a {
 }
 
 .meioInter {
-    font-size: 42px;
-    color: rgba(117, 117, 117, 1)
+    font-size: 22px;
+    color: #212121;
+    position: relative;
+    bottom: 290px;
+    right:539px;
+    
 }
 
 .comments {
@@ -415,42 +438,190 @@ width: 50%;
     bottom: 65px
 }
 
-.faleConosco {
 
-    width: 248px;
-    position: absolute;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    top: 665px;
-    font-family: nunito;
-    font-size: 36px;
-    left: 1010px;
+.containerFale2{
 
-    text-align: center;
-
-
+    
 }
 
 .fale2 {
-    width: 163px;
+    width: 300px;
+    height: 80px;
     position: absolute;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    top: 630px;
-    font-weight: 600px;
-    font-family: nunito;
+    top: 190px;
     font-size: 20px;
-    left: 1177px;
-
+    left: 344px;
     text-align: center;
+}
+.dataUser{
+      font-size: 22px;
+      position: relative;
+      left: 186px;
+      bottom: 5px;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 700;
+}
 
-    background: #FFF;
+.dataUser2{
+    font-size: 16px;
+    position: relative;
+    left: 186px;
+    bottom: 5px
+}
+
+.enter2 {
+    background: #EEEEEE;
+    width: 230px;
+    height: 40px;
     border-radius: 8px;
-    box-shadow: 0px 4px 5px 0px rgba(104, 104, 104, 0.20);
+    color: #9E9E9E;
+    border: none;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    position: relative;
+    right:50px;
+    bottom: 10px;
+    top:10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.enter3 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:52px;
+    bottom: 42px;
+    gap:18px
 
 }
+
+#pass3{
+    background: #F9E423;
+    color: #FFF;
+}
+
+#pass4{
+    color: #9E9E9E;
+   
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    position: relative;
+    left: 262px;
+    bottom: 89px;
+    font-family: 'Nunito Sans', sans-serif;
+      font-weight: 700;
+
+
+}
+.name2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    
+
+}
+
+.name3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    gap:5px
+
+}
+
+.name4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top:16px;
+    gap:5px
+}
+
+.name5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 8px;
+    gap:5px
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.discipline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.arrowTeacher {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    left: 194px;
+    bottom:29px
+}
+
+.botao{
+    position: relative;
+    top: 26px;
+    right: 37px;
+    height: 40px;
+    width: 222px;
+    background-color: #00C247;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.imgOut{
+    position: relative;
+    bottom:26px;
+    left:10px;
+    
+
+}
+.pActive{
+      position: relative;
+      top: 8px;
+
+}
+
+.key{
+    width: 44px;
+    height: 29px;
+    
+    
+
+}
+
+
+.radiusData{
+        border-radius: 8px;
+        border: 1px solid #E0E0E0;
+        
+        height: 36px;
+        width: 220px;
+
+}
+
 
 .circle {
     position: relative;
@@ -459,6 +630,24 @@ width: 50%;
     left:20px
 
 }
+
+.circleTopLeft {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left:20px;
+    top:10px
+
+}
+
+.circleTopLeft2 {
+    position: relative;
+    width: 23px;
+    height: 23px;
+    right: 12px;
+    top:2px
+}
+
 
 .com {
     position: absolute;

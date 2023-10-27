@@ -1,17 +1,10 @@
+
+
 body {
 
     margin: 0;
     padding: 0;
     height: 200px;
-
-}
-
-.containerOrigi {
-    position: relative;
-    height: 563px;
-    width: 65%;
-
-
 
 }
 
@@ -21,9 +14,11 @@ body {
     flex-direction: column;
     align-content: flex-start;
     width: 311px;
-    height: 594px;
+    height: 631px;
     background-color: #F9E423;
-    margin-bottom: 240px;
+    margin-bottom: 226px;
+    
+    
 
 
 }
@@ -32,20 +27,13 @@ body {
 .as {
     color: #AA6F34;
     position:relative;
-    
-    width: 100%;
+    left:1px
 }
 
-.as2 {
-    color: #AA6F34;
-    
 
-
-}
-
-h1 {
+h4 {
     font-family: 'Nunito', sans-serif;
-    font-size: 42px;
+    font-size: 30px;
 
 
 
@@ -63,13 +51,12 @@ span {
 }
 
 .spanGeral {
-
-
+   
     position: relative;
-    gap: 35px;
-    padding: 45px 0px;
-    right:18px
-
+    width: 310px;
+    padding: 45px 5px;
+    right:6px
+    
 
 }
 
@@ -92,6 +79,7 @@ span {
     width: 100%;
     left: 20px;
 
+    
 }
 
 .homeAlign {
@@ -119,6 +107,166 @@ span {
 
 }
 
+.d-menu{
+    
+   position: relative;
+   top:10px;
+   padding: 0px 3px;
+   
+   
+}
+
+
+
+.ulSubMenu{
+    display: none;
+    flex-direction: column;
+    position: relative;
+    right:72px;
+    
+   
+  
+  
+   
+
+}
+
+.aSub{
+    position: relative;
+   
+    width: 100%;
+  
+   
+  
+  
+   
+
+}
+
+.dropTopo-menu li:hover > .ulSubMenu{
+         display:block;
+         
+         
+}
+
+.dropTopo-menu li:hover > a{
+    
+
+
+}
+
+ul li a:hover{
+    
+    
+            
+          
+   
+    
+
+}
+
+.ulSubMenu a{
+   
+ 
+    width: 250%;
+    font-size: 18px;
+    border-left: 8px solid #F48221;
+    background:#FAA61A;
+    color:white;
+    
+    
+
+}
+
+.dropTopo-menu{
+    
+    display: flex;
+    
+    position:relative;
+    flex-direction: column;
+    
+    right:78px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    
+    letter-spacing: 0.2px;
+   
+    
+
+}
+
+.dropTopo-menu li{     /*esse aqi*/
+    display: flex;
+   position: relative;
+   flex-direction: column;
+   list-style: none;
+    width: 250px;
+    padding-left: 35px;
+    color:#AA6F34;
+    
+
+}
+
+.imgMenu{
+     width: 33px;
+
+}
+.imgMenu2{
+    width: 45px;
+    position: relative;
+    left:50px
+
+
+}
+
+.imgMenu2:hover{
+    transform: scale(1.0) rotate(90deg);
+    
+ 
+ }
+
+.dropTopo-menu a{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 110%;
+    height: 40px;
+    padding: 10px;
+    transition: all .2s linear;
+    padding-left:25px;
+    gap:18px;
+   
+    color: #AA6F34;  
+    
+ }
+
+.dropTopo-menu li ul li{
+    
+    padding-left: 32px;
+}
+
+.dropTopo-menu li:hover > a{
+    border-left: 8px solid #F48221;
+    background-color: #FAA61A;
+    color:white;
+
+    
+ }
+ .ulSubMenu li:hover > a{
+    
+    background-color:#F48221;
+    color:white;
+   
+    
+ }
+
+ .ulSubMenu .aSub {
+
+   
+    color:white;
+   position: relative;  
+   padding-left: 70px ;
+ }
 
 
 .user {
@@ -132,23 +280,29 @@ span {
     width: 100%;
     position: relative;
     left:23px;
+    top:142px
+}
+
+.menuDown{
     
+    display: flex;
+    position:relative;
+    flex-direction: column;
+    top:190px;
+    height:10px ;
+    left:2px;
+    font-family: 'Nunito';
+    font-size: 18px;
+    letter-spacing: 0.2px;
+   
+    
+
 }
 
 
-.spanGeral a {
-    display: block;
-    width: 100%;
-    padding: 15px 0;
-}
-
-.spanGeral a:hover {
-
-    background-color: #F48221;
-}
 
 .perfilOut a:hover {
-    background-color: #F48221;
+    background-color: #FAA61A;
 
 }
 
@@ -161,23 +315,15 @@ span {
 
 .perfilOut {
     
+   display: flex;
+   flex-direction: column;
     position: relative;
-    top: 42px;
-    width: 100%;
-    left:20px;
+    top: 158px;
+    width: 318px;
+    
     padding: 15px 0;
-    height: 0%;
-    
-    
    
 
-}
-.perfilOut2{
-    position: relative;
-    left:20px;
-    top:73px;
-    padding: 15px 0;
-   
 }
 
 .topoImg {
@@ -197,18 +343,13 @@ span {
     position: relative;
     width: 1478px;
     height: 80px;
-
-    border-right-width: 0px;
-    border-bottom-width: 6px;
-
     background-color: #FFFFFF;
-    padding-inline: 20px;
     font-size: 30px;
     justify-content: flex-end;
-
     align-items: center;
-    font-family: 'Nunito', sans-serif;
-
+    font-family: 'Nunito Sans', sans-serif;
+    top:10px;
+    
 
 
 }
@@ -247,11 +388,14 @@ span {
 
 .topo7 {
     position: relative;
-    width: 20%;
+    width: 305px;
     border: 3px solid #F9E423;
     left: 1209px;
 
 }
+
+
+
 
 .radius {
     display: flex;
@@ -263,6 +407,7 @@ span {
     border: none;
     background-color: rgba(249, 228, 35, 1);
     justify-content: center;
+    right: 20px;
 }
 
 .images {
@@ -276,13 +421,14 @@ span {
 .ane {
     opacity: 0.7;
 
+
 }
 
 
 a {
     color: white;
     text-decoration: none;
-    margin: 19px;
+    
 
 }
 
@@ -291,13 +437,13 @@ a {
     position: relative;
     flex-direction: column;
     justify-content: center;
-    font-family: nunito;
-    width: 1207px;
-    height: 595px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 1208px;
+    height: 631px;
     font-size: 25px;
     color: black;
     align-items: center;
-    bottom: 836px;
+    bottom: 857px;
     left: 310px;
     background: var(--Cinza-de-fundo, #F5F4F9);
 
@@ -311,6 +457,8 @@ a {
     font-size: 16px;
     gap: 55px;
     left: 427px;
+   
+
 
 }
 
@@ -320,6 +468,7 @@ a {
     border: 3px solid black;
     right: 162px;
     top: 24px;
+    
 
 }
 
@@ -359,30 +508,37 @@ a {
 
 .today {
     opacity: 0.2;
-
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+.week{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
 
 }
 
 .img2 {
     position: absolute;
-    width: 408px;
+    width: 386px;
     height: 160px;
     top: 3px;
-    left: 741px
+    left: 761px
 }
 
 .img5 {
     position: absolute;
     top: 7px;
-    width: 396px;
-    height: 329px;
-    left: 73px
+    width: 386px;
+    height: 325px;
+    left: 88px
 }
 
 .titulEmo {
     position: relative;
-    right: 416px;
-    
+    right: 426px;
+    bottom: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    line-height: 150%
 
 }
 
@@ -413,7 +569,7 @@ a {
 .img1 {
     position: absolute;
     width: 715px;
-    height: 488px;
+    height: 510px;
     left: 1px;
     top: 1px
 }
@@ -533,7 +689,7 @@ a {
     align-content: center;
     align-items: center;
     width: 50%;
-    font-family: nunito;
+    font-family: 'Nunito';
     font-size: 36px;
     left: 298px;
     text-align: center;
@@ -548,7 +704,7 @@ a {
     justify-content: center;
     align-content: center;
     top: 665px;
-    font-family: nunito;
+    font-family: 'Nunito';
     font-size: 36px;
     left: 1010px;
 
@@ -557,7 +713,3 @@ a {
 
 }
 
-div{
-   border:1px solid;
-
-}
