@@ -1,6 +1,6 @@
 
 const getAlunos = async ()=>{
-    const apiURL = await fetch('http://localhost:3000/cadAluno')
+    const apiURL = await fetch('https://db-json-pscy.onrender.com/cadAluno')
     const cadAluno = await apiURL.json()
     mostrarAlunos(cadAluno)
 
@@ -39,7 +39,7 @@ getAlunos()
 
 
 const excluir = async(id)=>{
-    await fetch(`http://localhost:3000/cadAluno/${id}`,{method:'DELETE'})
+    await fetch(`https://db-json-pscy.onrender.com/cadAluno/${id}`,{method:'DELETE'})
     getAlunos()
 }
 

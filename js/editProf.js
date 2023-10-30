@@ -10,7 +10,7 @@ const getIdUrl=()=>{
 }
 
 const buscarAluno = async ()=>{
-    const retorno=await fetch(`http://localhost:3000/cadAluno/${alunoId }`)
+    const retorno=await fetch(`https://db-json-pscy.onrender.com/cadAluno/${alunoId }`)
     const aluno= await retorno.json()
     return aluno
     
@@ -32,7 +32,7 @@ const carregarAluno = async ()=>{
 }
 
 editarAluno = async(aluno)=>{
-    await fetch(`http://localhost:3000/cadAluno/${alunoId}`,{
+    await fetch(`https://db-json-pscy.onrender.com/cadAluno/${alunoId}`,{
         method: 'PUT',
         headers:{
                 'Accept': 'application/json, text/plain, */*',

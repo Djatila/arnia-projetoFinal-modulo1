@@ -10,7 +10,7 @@ const getIdUrl=()=>{
 }
 
 const buscarProf = async ()=>{
-    const retorno=await fetch(`http://localhost:3000/cadProf/${profId }`)
+    const retorno=await fetch(`https://db-json-pscy.onrender.com/cadProf/${profId }`)
     const prof= await retorno.json()
     return prof
     
@@ -31,7 +31,7 @@ const carregarProf = async ()=>{
 }
 
 editarProf = async(prof)=>{
-    await fetch(`http://localhost:3000/cadProf/${profId}`,{
+    await fetch(`https://db-json-pscy.onrender.com/cadProf/${profId}`,{
         method: 'PUT',
         headers:{
                 'Accept': 'application/json, text/plain, */*',

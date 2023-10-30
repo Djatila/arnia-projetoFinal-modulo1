@@ -1,7 +1,7 @@
 const formulario=document.getElementById('formulario')
 
 const cadastrarProf= async (cadProf)=>{
-    await fetch('http://localhost:3000/cadProf',{
+    await fetch('https://db-json-pscy.onrender.com/cadProf',{
         method: 'POST',
         headers:{
                 'Accept': 'application/json, text/plain, */*',

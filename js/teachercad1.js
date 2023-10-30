@@ -1,6 +1,6 @@
 
 const getProf = async ()=>{
-    const apiURL = await fetch('http://localhost:3000/cadProf')
+    const apiURL = await fetch('https://db-json-pscy.onrender.com/cadProf')
     const cadProf = await apiURL.json()
     mostrarProf(cadProf)
 
@@ -40,7 +40,7 @@ getProf()
 
 
 const excluir = async(id)=>{
-    await fetch(`http://localhost:3000/cadProf/${id}`,{method:'DELETE'})
+    await fetch(`https://db-json-pscy.onrender.com/cadProf/${id}`,{method:'DELETE'})
     getProf()
 }
 

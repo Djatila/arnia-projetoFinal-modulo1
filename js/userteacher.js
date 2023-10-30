@@ -23,7 +23,7 @@ buscarCidaden=async (cidade) =>{
     let cidades = await url.json( )
     console.log(cidades)
     cidades.forEach((item)=>{
-        console.log{item.englishName}
+        
     })
 
 }
