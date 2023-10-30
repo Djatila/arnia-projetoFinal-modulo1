@@ -7,7 +7,7 @@ const getProf = async ()=>{
 }
 
 const mostrarProf=(cadProf)=>{
-    let tabela=document.querySelector('tbody')
+    let tabela=document.getElementById('tbody2')
     tabela.innerHTML=''
 
     cadProf.forEach((prof)=>{
