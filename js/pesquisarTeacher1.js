@@ -11,7 +11,7 @@ profil3.addEventListener('keyup', () => {
             continue;
         }
  
-        let mostrarLocal = tbodyCode[local].innerHTML.toLowerCase(); // 
+        let mostrarLocal = tbodyCode[local].innerHTML.toLowerCase();
         if (true === mostrarLocal.includes(expressao)) {
             tbodyCode[local].style.display = '';
         } else {

@@ -1,11 +1,6 @@
 {
   "cadAluno": [
     {
-      "nome": "Closhoth",
-      "turma": "Turma C",
-      "id": 18
-    },
-    {
       "nome": "Atila",
       "turma": "TURMA C",
       "id": 20
@@ -18,16 +13,28 @@
   ],
   "cadProf": [
     {
-      "nome": "Vanessa Torres",
+      "nome": "Vanessa Torres2",
       "perfil": "Professor",
       "disciplina": "Matematica",
       "id": 20
     },
     {
-      "nome": "Marcio",
-      "perfil": "Coordenador",
-      "disciplina": "Programação",
+      "nome": "Atila Azevedo",
+      "perfil": "Professor",
+      "disciplina": "Turma C",
       "id": 21
+    },
+    {
+      "nome": "Arthur AIrbnb",
+      "perfil": "Professor",
+      "disciplina": "Professor",
+      "id": 22
+    },
+    {
+      "nome": "Ayzon",
+      "perfil": "Professor",
+      "disciplina": "Programação",
+      "id": 23
     }
   ]
 }

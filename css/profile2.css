@@ -699,6 +699,13 @@ ul li a:hover {}
     border-radius: 8px;
 }
 
+.fale2 .enter3 a:hover {
+    background: #4019dc;
+    width: 0px;
+    height: 40px;
+}
+
+
 .imgOut {
     position: relative;
     bottom: 26px;
